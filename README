@@ -1,0 +1,9 @@
+This repository contains code for validating the theory for the paper "On the Convergence of Shallow Neural Network Training with Randomly Masked Neurons"
+
+To reproduce the dataset, run the "ResNet50-CIFAR.ipynb" from beginning to end.
+
+run the following command to reproduce data for the corresponding figure:
+    Figure 2a: "./run_exp.sh"
+    Figure 2b: "./run_heatmap.sh"
+    Figure 2c: "./run_width.sh"
+    Figure 2d: Call the "IST" function in "resnet_cifar_experiments.py" for different width.
